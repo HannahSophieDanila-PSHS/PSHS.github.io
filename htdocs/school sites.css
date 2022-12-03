@@ -1,0 +1,374 @@
+@font-face {
+    font-family: gens;
+    src: url("../images/fonts/ja-jp.ttf");
+}
+
+@font-face {
+    font-family: mysans;
+    src: url("../images/fonts/JUST\ Sans\ Regular.otf");
+}
+
+body {
+    background-color: white;
+    font-family: gens;
+}
+
+.page {
+    width: 99%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* For nav ------------------------------------------------------------------------------------------------------------------------------ */
+
+nav {
+    position: relative;
+    float: left;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 4px;
+
+    background-color: #a8c1c7;
+
+    z-index: 1;
+}
+
+nav > a > img {
+    width: 42px;
+    height: 42px;
+    margin: 24px 5px;
+}
+
+nav a:hover {
+    opacity: 0.4;
+    transition: 0.5s ease;
+}
+
+
+
+
+/* For header ------------------------------------------------------------------------------------------------------------------------- */
+
+.header {
+    position: relative;
+    float: left;
+    width: 96%;
+    margin: -2470px 10px 10px 10px;
+    background-color: #b9ced3;
+    padding: 15px;
+    border-radius: 4px;
+    z-index: 2;
+
+    text-align: left;
+
+}
+
+#logo1 {
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+#logo2 {
+    margin: 6px 20px;
+    float: left;
+    height: 39px;
+    width: 227px;
+}
+
+/* For body ------------------------------------------------------------------------------------------------------------------------- */
+
+.main {
+    position: relative;
+    float: left;
+    z-index: 0;
+
+    margin: -2390px 10px 0px 98px;
+    background-color: #e5edf0;
+    width: 89%;
+    height: auto;
+    border-radius: 4px;
+    padding: 16px 16px 20px 16px;
+}
+
+.main audio {
+    display: none;
+}
+
+/* For sec1 ------------------------------------------------------------------------------------------------------------------------- */
+
+.sec1 {
+    overflow: auto;
+    width: auto;
+    height: 170px;
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #D7DFE3;
+}
+
+.sec1 img {
+    float: left;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    border: 3px solid #D7DFE3;
+    border-radius: 50px;
+}
+
+.sec1 h3 {
+    float: left;
+    font-size: 1.3em;
+    margin: 30px 10px;
+}
+
+.sec1 p {
+    text-align: justify;
+    margin: -10px 20px 10px 97px;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+/* For sec1.5 ------------------------------------------------------------------------------------------------------------------------- */
+
+
+.sec1_5 {
+    overflow: auto;
+    width: auto;
+    height: 85px;
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #D7DFE3;
+}
+
+#instructions {
+	font-size: 15px;
+}
+
+#instructions img {
+	margin: -3px 0;
+	height: 15px;
+	width: 15px;
+}
+
+
+/* For sec2 ------------------------------------------------------------------------------------------------------------------------- */
+
+
+.sec2 {
+    overflow: auto;
+    width: auto;
+    height: 800px;
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #D7DFE3;
+}
+
+#secheader {
+    float: left;
+    margin: 20px 5px 5px 5px;
+	padding: 8px;
+    font-size: 1.3em;
+    padding: 10px;
+	background-color: #D7DFE3;
+	width: 97%;
+	text-align: left;
+}
+
+.app {
+	margin: 10px 10px 20px 10px;
+	padding: 15px;
+	float: left;
+	width: 455px;
+	height: auto;
+	border: 2px dashed #D7DFE3;
+}
+
+#appss {
+	float: left;
+	margin: 5px 10px 0px 0;
+	width: 215px;
+	height: 150px;
+}
+
+#add img {
+	float: left;
+	margin: -30px 0 0 0;
+	height: 25px;
+	width: 25px;
+}
+
+#add:hover {
+	opacity: 0.3;
+	transition: 0.4s ease-out;
+}
+
+#appheader {
+	float: left;
+	margin:  -27px 5px 5px 40px;
+	font-size: 1.1em;
+}
+
+#appdescript {
+	float: left;
+	margin: 5px 10px 10px 42px;
+	text-align: justify;
+	font-family: mysans;
+	font-size: 0.9em;
+}
+
+/* For sec2 ------------------------------------------------------------------------------------------------------------------------- */
+
+
+.sec3 {
+    overflow: auto;
+    width: auto;
+    height: 750px;
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #D7DFE3;
+}
+
+#secheader {
+    float: left;
+    margin: 20px 5px 5px 5px;
+	padding: 8px;
+    font-size: 1.3em;
+    padding: 10px;
+	background-color: #D7DFE3;
+	width: 97%;
+	text-align: left;
+}
+
+.app {
+	margin: 10px 10px 20px 10px;
+	padding: 15px;
+	float: left;
+	width: 455px;
+	height: auto;
+	border: 2px dashed #D7DFE3;
+}
+
+#appss {
+	float: left;
+	margin: 5px 10px 0px 0;
+	width: 215px;
+	height: 150px;
+}
+
+#add img {
+	float: left;
+	margin: -30px 0 0 0;
+	height: 25px;
+	width: 25px;
+}
+
+#add:hover {
+	opacity: 0.3;
+	transition: 0.4s ease-out;
+}
+
+#appheader {
+	float: left;
+	margin:  -27px 5px 5px 40px;
+	font-size: 1.1em;
+}
+
+#appdescript {
+	float: left;
+	margin: 5px 10px 10px 42px;
+	text-align: justify;
+	font-family: mysans;
+	font-size: 0.9em;
+}
+
+
+/* For sec5 ------------------------------------------------------------------------------------------------------------------------- */
+
+.sec5 {
+    overflow: auto;
+    width: auto;
+    height: 150px;
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #D7DFE3;
+
+    font-family: gens;
+}
+
+.sec5 h2 {
+    margin: 5px 5px -10px 35px;
+    text-align: left;
+}
+
+.sec5 ul {
+    font-size: .9em;
+    text-align: left;
+    list-style-type: none;
+    line-height: 1.6em;
+}
+
+#sp1 {
+    font-style: italic;
+}
+
+#sp2 {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+/* For footer ------------------------------------------------------------------------------------------------------------------------- */
+
+footer {
+    position: relative;
+    float: left;
+    width: 93.7%;
+    margin: 0 10px 10px 10px;
+    background-color: #b9ced3;
+    padding: 30px;
+    border-radius: 4px;
+    z-index: 2;
+
+    text-align: left;
+}
+
+footer div {
+    float: left;
+    margin: 5px;
+    padding: 8px;
+
+    width: 45%;
+
+}
+
+.fdiv:hover {
+    background-color: #d3dee1;
+    border-radius: 7px;
+    transition: 0.5s linear;
+}
+
+.fdiv > img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.fdiv > h4 {
+    float: left;
+    margin: 20px 10px 10px 10px;
+}
+
+.fdiv > p {
+    float: left;
+    margin: 20px 10px;
+}

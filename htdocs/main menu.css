@@ -1,0 +1,246 @@
+@font-face {
+    font-family: gens;
+    src: url("../images/fonts/ja-jp.ttf");
+}
+
+body {
+    background-color: white;
+    font-family: gens;
+}
+
+.page {
+    width: 99%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* For nav ------------------------------------------------------------------------------------------------------------------------------ */
+
+nav {
+    position: relative;
+    float: left;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 4px;
+
+    background-color: #a8c1c7;
+
+    z-index: 1;
+}
+
+nav > a > img {
+    width: 42px;
+    height: 42px;
+    margin: 24px 5px;
+}
+
+nav a:hover {
+    opacity: 0.4;
+    transition: 0.5s ease;
+}
+
+
+/* For header ------------------------------------------------------------------------------------------------------------------------- */
+
+.header {
+    position: relative;
+    float: left;
+    width: 96%;
+    margin: -1090px 10px 0px 10px;
+    background-color: #b9ced3;
+    padding: 15px;
+    border-radius: 4px;
+    z-index: 2;
+
+    text-align: left;
+
+}
+
+#logo1 {
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+#logo2 {
+    margin: 6px 20px;
+    float: left;
+    height: 39px;
+    width: 227px;
+}
+
+/* For body ------------------------------------------------------------------------------------------------------------------------- */
+
+.main {
+    position: relative;
+    float: left;
+    z-index: 0;
+
+    margin: -1010px 10px 0 98px;
+    background-color: #e5edf0;
+    width: 89%;
+    height: auto;
+    border-radius: 4px;
+    padding: 16px 16px 28px 16px;
+}
+
+.main audio {
+    display: none;
+}
+
+/* For sec1 ------------------------------------------------------------------------------------------------------------------------- */
+
+.sec1 {
+    overflow: auto;
+    width: auto;
+    height: 80px;
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #D7DFE3;
+
+	font-family: gens;
+}
+
+.sec1 h2 {
+	font-size: 2em;
+	margin: 0;
+}
+
+.sec1 h3 {
+	margin: 8px 0 0 0;
+}
+
+
+/* For sec2 ------------------------------------------------------------------------------------------------------------------------- */
+
+.sec2 {
+    overflow: auto;
+    width: auto;
+    height: 500px;
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #D7DFE3;
+	font-family: gens;
+}
+
+.sec2 div {
+	color: black;
+	float: left;
+	width: 272px;
+	margin: 10px 23px;
+	height: auto;
+	padding: 20px 10px;
+
+	box-shadow: 2px 5px 10px #4f525e;
+}
+
+.sec2 img {
+	width: 267px;
+	height: 167px;
+}
+
+.sec2 h4 {
+	font-size: 1.2em;
+}
+
+.sec2 p {
+	margin: 10px 20px;
+	font-size: 0.8em;
+	width: 240px;
+	text-align: justify
+}
+
+.sec2 a:hover {
+	opacity: 0.6;
+	transition: 0.5s ease;
+}
+
+/* For sec3 ------------------------------------------------------------------------------------------------------------------------- */
+
+.sec3 {
+    overflow: auto;
+    width: auto;
+    height: 125px;
+    margin: 20px;
+    padding: 25px 25px 35px 25px;
+    background-color: white;
+    border: 2px solid #D7DFE3;
+
+    font-family: gens;
+}
+
+.sec3 h2 {
+    margin: 5px 5px 0px 35px;
+    text-align: left;
+}
+
+.sec3 ul {
+    margin: 0;
+    font-size: .9em;
+    text-align: left;
+    list-style-type: none;
+    line-height: 1.6em;
+}
+
+#sp1 {
+    font-style: italic;
+}
+
+#sp2 {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+/* For footer ------------------------------------------------------------------------------------------------------------------------- */
+
+footer {
+    position: relative;
+    float: left;
+    width: 93.7%;
+    margin: 0 10px 10px 10px;
+    background-color: #b9ced3;
+    padding: 30px;
+    border-radius: 4px;
+    z-index: 2;
+
+    text-align: left;
+}
+
+footer div {
+    float: left;
+    margin: 5px;
+    padding: 8px;
+
+    width: 45%;
+
+}
+
+.fdiv:hover {
+    background-color: #d3dee1;
+    border-radius: 7px;
+    transition: 0.5s linear;
+}
+
+.fdiv > img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.fdiv > h4 {
+    float: left;
+    margin: 20px 10px 10px 10px;
+}
+
+.fdiv > p {
+    float: left;
+    margin: 20px 10px;
+}

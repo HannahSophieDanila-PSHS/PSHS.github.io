@@ -1,0 +1,380 @@
+@font-face {
+    font-family: gens;
+    src: url("../images/fonts/ja-jp.ttf");
+}
+
+body {
+    background-color: white;
+    font-family: gens;
+}
+
+.page {
+    width: 99%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* For nav ------------------------------------------------------------------------------------------------------------------------------ */
+
+nav {
+    position: relative;
+    float: left;
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 4px;
+
+    background-color: #a8c1c7;
+
+    z-index: 1;
+}
+
+nav > a > img {
+    width: 42px;
+    height: 42px;
+    margin: 24px 5px;
+}
+
+nav a:hover {
+    opacity: 0.4;
+    transition: 0.5s ease;
+}
+
+
+
+
+/* For header ------------------------------------------------------------------------------------------------------------------------- */
+
+.header {
+    position: relative;
+    float: left;
+    width: 96%;
+    margin: -2490px 10px 10px 10px;
+    background-color: #b9ced3;
+    padding: 15px;
+    border-radius: 4px;
+    z-index: 2;
+
+    text-align: left;
+
+}
+
+#logo1 {
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+#logo2 {
+    margin: 6px 20px;
+    float: left;
+    height: 39px;
+    width: 227px;
+}
+
+/* For body ------------------------------------------------------------------------------------------------------------------------- */
+
+.main {
+    position: relative;
+    float: left;
+    z-index: 0;
+
+    margin: -2415px 10px 0px 98px;
+    background-color: #e5edf0;
+    width: 89%;
+    height: auto;
+    border-radius: 4px;
+    padding: 16px 16px 24px 16px;
+}
+
+.main audio {
+    display: none;
+}
+
+/* For sec1 ------------------------------------------------------------------------------------------------------------------------- */
+
+.sec1 {
+    overflow: auto;
+    width: auto;
+    height: 175px;
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #D7DFE3;
+}
+
+.sec1 img {
+    float: left;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    border: 3px solid #D7DFE3;
+    border-radius: 50px;
+}
+
+.sec1 h3 {
+    float: left;
+    font-size: 1.3em;
+    margin: 30px 10px;
+}
+
+.sec1 p {
+    text-align: justify;
+    margin: -10px 20px 10px 97px;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+/* For sec2 ------------------------------------------------------------------------------------------------------------------------- */
+
+.sec2 {
+    overflow: auto;
+    width: auto;
+    height: 630px;
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #D7DFE3;
+}
+
+
+.sec2 img {
+    float: left;
+    border: 2px solid #D7DFE3;
+    margin: 10px;
+    width: 140px;
+    height: 195px;
+}
+
+
+.sec2 h3 {
+    float: left;
+    margin: 35px 40px 10px 40px;
+    font-size: 1.5em;
+}
+
+.sec2 p {
+    float: left;
+    text-align: justify;
+    margin: 10px 40px;
+    font-size: 1em;
+    line-height: 1.5em;
+
+    width: 600px;
+}
+
+.sec2 > p > span {
+    font-weight: bold;
+    background-color: #c9dbff;
+}
+
+.sec2 ol {
+    float: left;
+    text-align: justify;
+    margin: 50px 30px 20px 0px;
+    list-style-type: decimal-leading-zero;
+    line-height: 1.6em;
+    font-size: 0.9em;
+}
+
+.sec2 > ol > li {
+    margin: 8px;
+}
+
+.sec2 > ol > li > span {
+    background-color: #c9dbff;
+}
+
+/* For sec3 ------------------------------------------------------------------------------------------------------------------------- */
+
+.sec3 {
+    overflow: auto;
+    width: auto;
+    height: 550px;
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #D7DFE3;
+}
+
+
+.sec3 img {
+    float: left;
+    border: 2px solid #D7DFE3;
+    margin: 10px;
+    width: 400px;
+    height: 204px;
+}
+
+.sec3 h3 {
+    float: left;
+    margin: 35px 40px 10px 40px;
+    font-size: 1.5em;
+}
+
+.sec3 p {
+    float: left;
+    text-align: justify;
+    margin: 10px 40px;
+    font-size: 1em;
+    line-height: 1.5em;
+
+    width: 500px;
+}
+
+.sec3 > p > span {
+    font-weight: bold;
+    background-color: #c9dbff;
+}
+
+.sec3 ol {
+    float: left;
+    text-align: justify;
+    margin: 20px 30px 50px 0px;
+    list-style-type: decimal-leading-zero;
+    line-height: 1.6em;
+    font-size: 0.9em;
+}
+
+.sec3 > ol > li {
+    margin: 8px;
+}
+
+.sec3 > ol > li > span {
+    font-weight: bold;
+}
+
+
+/* For sec4 ------------------------------------------------------------------------------------------------------------------------- */
+
+.sec4 {
+    overflow: auto;
+    width: auto;
+    height: 420px;
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #D7DFE3;
+}
+
+
+.sec4 img {
+    float: left;
+    border: 2px solid #D7DFE3;
+    margin: 10px;
+    width: 400px;
+    height: 204px;
+}
+
+
+.sec4 h3 {
+    float: left;
+    text-align: left;
+    margin: 65px 40px 10px 40px;
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+
+.sec4 ol {
+    float: left;
+    text-align: justify;
+    margin: 20px 30px 50px 0px;
+    list-style-type: circle;
+    line-height: 1.6em;
+    font-size: 0.9em;
+}
+
+.sec4 > ol > li {
+    margin: 8px;
+}
+
+.sec4 > ol > li > span {
+    font-weight: bold;
+}
+ 
+
+/* For sec5 ------------------------------------------------------------------------------------------------------------------------- */
+
+.sec5 {
+    overflow: auto;
+    width: auto;
+    height: 200px;
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #D7DFE3;
+
+    font-family: gens;
+}
+
+.sec5 h2 {
+    margin: 5px 5px -10px 35px;
+    text-align: left;
+}
+
+.sec5 ul {
+    font-size: .9em;
+    text-align: left;
+    list-style-type: none;
+    line-height: 1.6em;
+}
+
+#sp1 {
+    font-style: italic;
+}
+
+#sp2 {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+/* For footer ------------------------------------------------------------------------------------------------------------------------- */
+
+footer {
+    position: relative;
+    float: left;
+    width: 93.7%;
+    margin: 0 10px 10px 10px;
+    background-color: #b9ced3;
+    padding: 30px;
+    border-radius: 4px;
+    z-index: 2;
+
+    text-align: left;
+}
+
+footer div {
+    float: left;
+    margin: 5px;
+    padding: 8px;
+
+    width: 45%;
+
+}
+
+.fdiv:hover {
+    background-color: #d3dee1;
+    border-radius: 7px;
+    transition: 0.5s linear;
+}
+
+.fdiv > img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.fdiv > h4 {
+    float: left;
+    margin: 20px 10px 10px 10px;
+}
+
+.fdiv > p {
+    float: left;
+    margin: 20px 10px;
+}

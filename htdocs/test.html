@@ -1,0 +1,80 @@
+<!DOCYPE html>
+
+<html>
+<head> 
+	<title> PISAY-dekick </title>
+	<meta charset="UTF-8">
+    <meta name = "author" content = "Hannah Sophie P. Danila">
+	<meta name = "G9-Xenon" content = "My First Webpage">
+	<meta name = "WebPage" content = "HTML, CSS, JavaScript">
+	<meta name = "revised" content = "15-09-2022">
+
+    <style> 
+        .container {
+            position: relative;
+            width: 30px;
+            margin: 10px;
+        }
+
+        .image {
+            display: block;
+            width: 60px;
+            height: 60px;
+            margin: 20px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            width: 60px;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #008CBA;
+
+            margin: 20px;
+        }
+
+        .container:hover .overlay {
+            opacity: 1;
+        }
+
+        .text {
+            color: white;
+            font-size: 15px;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            -webkit-transform: translate(-30px, -30px);
+            -ms-transform: translate(-30px, -30px);
+            transform: translate(-30px, -30px);
+            text-align: center;
+        }
+    </style>
+	
+    <link rel = "icon" href="../images/main logo.png" type = "image/x-icon">
+</head>
+
+<body>
+    <h2>Fade in Overlay</h2>
+    <p>Hover over the image to see the effect.</p>
+
+    <div class="container">
+        <img src="img_avatar.png" alt="Avatar" class="image">
+        <div class="overlay">
+            <div class="text">Hello World</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <img src="img_avatar.png" alt="Avatar" class="image">
+        <div class="overlay">
+            <div class="text">Hello World</div>
+        </div>
+    </div>
+</body>
+
+</html>	
